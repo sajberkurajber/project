@@ -1,0 +1,34 @@
+2016/11/01 05:59:09 heroku-cli/5.4.8-eee5ec9 (linux-amd64) go1.7.1 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: version
+2016/11/01 05:59:09 triggering background update
+2016/11/01 05:59:09 heroku-cli/5.4.8-eee5ec9 (linux-amd64) go1.7.1 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: update
+2016/11/01 05:59:09 heroku-cli/5.4.8-eee5ec9 (linux-amd64) go1.7.1 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: commands
+2016/11/01 05:59:09 heroku-cli: Updating plugins...
+2016/11/01 05:59:09  done
+2016/11/12 20:40:08 heroku-cli/5.4.8-eee5ec9 (linux-amd64) go1.7.1 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: version
+2016/11/12 20:40:08 triggering background update
+2016/11/12 20:40:08 heroku-cli/5.4.8-eee5ec9 (linux-amd64) go1.7.1 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: update
+2016/11/12 20:40:08 heroku-cli/5.4.8-eee5ec9 (linux-amd64) go1.7.1 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: commands
+2016/11/12 20:40:08 heroku-cli/5.4.8-eee5ec9 (linux-amd64) go1.7.1 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: login
+2016/11/12 20:40:08 Email: 
+2016/11/12 20:40:09 heroku-cli: Updating to 5.5.0-f6e6aaf...
+2016/11/12 20:40:23  ▸    rename /home/ubuntu/.local/share/heroku/cli /home/ubuntu/.local/share/heroku/tmp/361002366/heroku: invalid cross-device link
+2016/11/12 20:40:23 rename /home/ubuntu/.local/share/heroku/cli /home/ubuntu/.local/share/heroku/tmp/361002366/heroku: invalid cross-device link
+
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/io.go:333 (0x4157e0)
+/usr/local/go/src/runtime/asm_amd64.s:479 (0x47e18c)
+/usr/local/go/src/runtime/panic.go:458 (0x450c63)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/io.go:189 (0x41490c)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/update.go:103 (0x4206bc)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/update.go:67 (0x41fd86)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/update.go:50 (0x41fbfe)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/update.go:33 (0x4240fa)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/start.go:70 (0x41e04e)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/main.go:22 (0x41684a)
+/usr/local/go/src/runtime/proc.go:183 (0x452934)
+/usr/local/go/src/runtime/asm_amd64.s:2086 (0x480cd1)
+
+2016/11/12 20:40:54 heroku-cli/5.4.8-eee5ec9 (linux-amd64) go1.7.1 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: version
+2016/11/12 20:40:54 heroku-cli/5.4.8-eee5ec9 (linux-amd64) go1.7.1 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: commands
+2016/11/12 20:40:54 heroku-cli/5.4.8-eee5ec9 (linux-amd64) go1.7.1 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: create
+2016/11/12 20:41:26 heroku-cli/5.4.8-eee5ec9 (linux-amd64) go1.7.1 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: version
+2016/11/12 20:41:26 heroku-cli/5.4.8-eee5ec9 (linux-amd64) go1.7.1 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: commands
